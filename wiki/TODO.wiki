@@ -1,4 +1,5 @@
   * fling rotation, look at nehe-android for info
+  * rename asset dir to "modelview", look under the dir "modelview" on ext. storage. do not distinguish by file type "off"
   * TestRenderer -> MeshRenderer
   * OFFReader -> OffReader
     * BrowseElement.validExensions() is a HashSet that contains all extensions we should consider
