@@ -1,0 +1,17 @@
+  * for each line
+    * List<Vertex> vertices
+    * List<Normal> normals
+    * List<Triangle> tris
+    * if line starts with "#", "o", "g", "mtllib", "usemtl", or "vt", continue
+    * if line starts with "v", parse line as x, y or x, y, z vertex, add to vertices
+    * else if line starts with "vn" parse line as x, y, z vector
+      * normalize vector?
+    * else if line starts with "f" parse line as face, use regex: "f\s+(\d+)/(\d*)/(\d*)"
+      * use group 1 to pull vertex from vertices list
+      * group 2 is vertex texture, we ignore
+      * group 3 is vertex normal, use to pull normal from vertices list
+
+notes: 
+  # all indices start with one, which means we must subtract one before using them to index into the lists we are building
+  # may need to build triangles after entire set of vertices, faces, and normals is built. can we assume that things are defined before they are referenced? if not, we can perhaps introduce the idea of a PointerTriangle that instead of having actual vertices, has pointers to vertices (and normals), which we then later ask it to convert to a real triangle given the complete list of vertices, normals
+  # since normals can be specified, we should make them a field of a triangle, not just a function of the triangle that builds the normal dynamically. triangle construction can optionally accept a normal, but if not present, is calculated at time of construction
