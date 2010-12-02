@@ -14,6 +14,7 @@ http://en.wikipedia.org/wiki/Obj
         * group 2 is vertex texture, we ignore
         * group 3 is vertex normal, use to pull normal from vertices list
       * use vertices, normals discovered by parsing all vertex elements to build triangle(s), using fan method
+      * add each triangle to the list of triangles
 
 notes: 
   # vertices are stored in CCW order, so we should not need to generate back faces
