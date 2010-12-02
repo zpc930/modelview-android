@@ -4,7 +4,7 @@
     * List of Triangle tris
     * if line starts with "#", "o", "g", "mtllib", "usemtl", or "vt", continue
     * if line starts with "v", parse line as x, y or x, y, z vertex, add to vertices
-    * else if line starts with "vn" parse line as x, y, z vector
+    * else if line starts with "vn" parse line as x, y, z normal
       * normalize vector?
     * else if line starts with "f" parse line as face, use regex: "f\s+(\d+)/(\d*)/(\d*)"
       * use group 1 to pull vertex from vertices list
