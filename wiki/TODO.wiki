@@ -3,7 +3,7 @@
   * OFFReader -> OffReader
   * abstract class Reader, OffReader extends Reader
   * BrowseElement has abstract method getReader() that returns either OffReader or ObjReader
-    * GL activity calls BrowseElement.getReader(), then Reader.getMesh(), and passes this to MeshRenderer  
+    * GL activity calls BrowseElement.getReader(), then Reader.getMesh(), and constructs MeshRenderer with the returned Mesh object 
   * ObjReader 
     * http://en.wikipedia.org/wiki/Obj
     * samples,
