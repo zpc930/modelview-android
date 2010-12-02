@@ -1,4 +1,9 @@
   * fling rotation, look at nehe-android for info
+  * TestRenderer -> MeshRenderer
+  * OFFReader -> OffReader
+  * abstract class Reader, OffReader extends Reader
+  * BrowseElement has abstract method getReader() that returns either OffReader or ObjReader
+    * GL activity calls BrowseElement.getReader(), then Reader.getMesh(), and passes this to MeshRenderer  
   * ObjReader 
     * http://en.wikipedia.org/wiki/Obj
     * samples,
