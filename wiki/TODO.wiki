@@ -1,8 +1,7 @@
-#TODO
-
   * fling rotation, look at nehe-android for info
   * support for .obj files ((http://en.wikipedia.org/wiki/Obj))
-  * fog
+  * fog, also look at nehe-android
   * preferences
-    * fog on / off
+    * draw back faces toggle
+    * fog on / off toggle
   * light rotation, perhaps toggle between object and this
