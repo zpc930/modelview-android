@@ -1,5 +1,5 @@
   * fling rotation, look at nehe-android for info
-  * support for .obj files 
+  * ObjReader 
     * http://en.wikipedia.org/wiki/Obj
     * samples,
       * http://groups.csail.mit.edu/graphics/classes/6.837/F03/models/
