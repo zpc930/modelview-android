@@ -2,7 +2,7 @@
   * support for .obj files 
     * http://en.wikipedia.org/wiki/Obj
     * samples,
-      * http://groups.csail.mit.edu/graphics/classes/6.837/F03/models/teapot.obj
+      * http://groups.csail.mit.edu/graphics/classes/6.837/F03/models/
       * http://people.sc.fsu.edu/~jburkardt/data/obj/obj.html
   * fog, also look at nehe-android
   * preferences
