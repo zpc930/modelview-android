@@ -9,8 +9,7 @@ http://en.wikipedia.org/wiki/Obj
     * else if line starts with "vn" parse line as x, y, z normal
       * normalize vector?
     * else if line starts with "f" parse line as face, 
-    * split by space (StringTokenizer) then,
-      * use regex: "(\d+)(?:/(\d`*`))?(?:/(\d`*`))?" to parse each vertex element
+      * use regex to find "(\d+)(?:/(\d`*`))?(?:/(\d`*`))?" repeatedly
         * group 1 is vertex pointer, use to pull vertex from vertices list
         * group 2 is vertex texture, we ignore
         * group 3 is vertex normal, use to pull normal from vertices list
