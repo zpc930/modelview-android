@@ -4,6 +4,7 @@ http://en.wikipedia.org/wiki/Obj
   * List of Normal normals
   * List of Triangle tris
   * for each line
+    * if line.trim.length == 0, continue
     * if line starts with "#", "o", "g", "mtllib", "usemtl", or "vt", continue
     * if line starts with "v", parse line as x, y or x, y, z vertex, add to vertices
     * else if line starts with "vn" parse line as x, y, z normal
