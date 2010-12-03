@@ -1,8 +1,9 @@
-  * ObjReader 
-    * http://en.wikipedia.org/wiki/Obj
-    * samples,
-      * http://groups.csail.mit.edu/graphics/classes/6.837/F03/models/
-      * http://people.sc.fsu.edu/~jburkardt/data/obj/obj.html
+  * close streams when we are done reading!
+  * capture any throwable that occurs when loading a file. log it, and report it to the user in a nice way. we can still have inner try-catches to report specific problems. these should always re-throw so the outermost try-catch everything will report it to the user.
+    * error message should instruct user how to to report the problem, maybe link them to a wiki page. wiki page gives instructions how to use alogcat, and how to file an issue.
+  * ObjReader is ignoring normals.
+  * add "loading" progress dialog. any way to make it determinate? we can use File.size() or whatever it is, and it looks like we can get an AssetFileDescriptor. does it correctly report the size?
+    * if we have the size, we can update the loading progress based on the bytes read. if we assume ascii, that's the length of the line + 1 for the newline. 
   * fog, also look at nehe-android
   * preferences
     * draw back faces toggle
