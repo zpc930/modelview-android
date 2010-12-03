@@ -1,13 +1,3 @@
-  * fling rotation, look at nehe-android for info
-  * rename asset dir to "modelview", look under the dir "modelview" on ext. storage. do not distinguish by file type "off"
-  * TestRenderer -> MeshRenderer
-  * OFFReader -> OffReader
-    * BrowseElement.validExensions() is a HashSet that contains all extensions we should consider
-  * abstract class Reader, OffReader extends Reader
-  * BrowseElement has abstract method getReader() that returns either OffReader or ObjReader
-    * getReader() uses Reader.newInstance(path) ... static factory method that maps file extension to Reader impl
-    * some BrowseElement.getReader() impls would return UnsupportedOperationException 
-    * GL activity calls BrowseElement.getReader(), then Reader.getMesh(), and constructs MeshRenderer with the returned Mesh object 
   * ObjReader 
     * http://en.wikipedia.org/wiki/Obj
     * samples,
