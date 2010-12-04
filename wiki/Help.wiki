@@ -1,8 +1,6 @@
 =Introduction=
 
-ModelView is a simple 3D model viewing application for Android. It loads standard 3D model files and allow you to rotate the object in space.
-
-This is by all intents and purposes a toy application. It serves no real purpose and was written as an exercise in OpenGL programming.
+ModelView is a simple 3D model viewing application for Android. It loads standard 3D model files and allow you to rotate the object in space. This is by all intents and purposes a toy application. It serves no real purpose and was written as an exercise in OpenGL programming.
 
 =Usage=
 
