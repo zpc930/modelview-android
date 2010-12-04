@@ -18,13 +18,13 @@ Of course there are bugs in ModelView. If you have a .OFF or .OBJ file that you 
 
 =Preferences=
 
-  * *Render back faces:* Render the specified (front) faces, but also render an opposite face. This is necessary in some cases as certain models assume front and back face rendering. If you see dark, unlit portions of the model, give this a try. This increase memory usage and will further limit the model sizes that can be loaded.
+  * *Render back faces:* Render the specified (front) faces, but also render an opposite face. This is necessary in some cases as certain models assume front and back face rendering. If you see dark, unlit portions of the model, give this a try. This will increase memory usage and will further limit the model sizes that can be loaded. You do not normally need to set this for .OBJ files. 
  
-=Data=
+=Other Data Files=
 
 See the [Data] page for information on how to obtain more data files for use with ModelView.
 
-=Out of Memory=
+=Out of Memory?=
 
 ModelView is limited by the memory of your phone. It may not be able to load all of the 3D models packaged with it, or the ones that you add.
 
