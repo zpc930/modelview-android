@@ -3,3 +3,4 @@ This page links to other web sites where you can download additional .OBJ and .O
   * [http://shape.cs.princeton.edu/benchmark/download.cgi?file=download/psb_v1.zip Princeton Shape Benchmark] - 450MB .ZIP of .OFF files (some of which are too complex to render on a mobile device)
   * http://groups.csail.mit.edu/graphics/classes/6.837/F03/models 6 - A few .OBJ models
   * http://people.sc.fsu.edu/~jburkardt/data/obj/obj.html - ~25 .OBJ files, geometrics and models
+  * [http://www.hongkiat.com/blog/60-excellent-free-3d-model-websites/ 60 3D-Model Websites] - Some of which host .OBJ files
