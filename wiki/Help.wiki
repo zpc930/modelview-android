@@ -4,7 +4,7 @@ ModelView is a simple 3D model viewing application for Android. It loads standar
 
 =Usage=
 
-ModelView has two "activities": browse and view. The browse activity is a file browser for 3D model files. It shows files that are packaged with the application and ones that are stored in external storage, if any. To add additional files for ModelView on your external storage (SD card), create a folder named "modelview-data" in the root of your SD card, and put the files (and or additional folders) there.
+ModelView has two "activities": browse and view. The initial activity, browse, is a file browser for 3D model files. It shows files that are packaged with the application and ones that are stored in external storage, if any. To add additional files for ModelView on your external storage (SD card), create a folder named "modelview-data" in the root of your SD card, and put the files (and or additional folders) there.
 
 Selecting a model file will start the view activity. It will render the selected model files. You can rotate the model in the X and Y directions by dragging and flinging. Pressing "back" will return to the browse activity.
 
@@ -23,3 +23,9 @@ Of course there are bugs in ModelView. If you have a .OFF or .OBJ file that you 
 =Data=
 
 See the [Data] page for information on how to obtain more data files for use with ModelView.
+
+=Out of Memory=
+
+ModelView is limited by the memory of your phone. It may not be able to load all of the 3D models packaged with it, or the ones that you add.
+
+ModelView does its best to catch "out of memory" errors and report them nicely, but it's impossible to do this 100% of the time. The application may be so strapped for memory that it can't even report the problem. In this case, you may see the view activity just stop and return to browsing.
